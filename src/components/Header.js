@@ -1,6 +1,9 @@
 function Header(){
     return(
-      <h1>hello </h1>
+        <div className="navbar bg-dark rounded text-white">
+            <h2>Our Team </h2>
+        </div>
+      
     )
   }
   

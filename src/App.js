@@ -3,7 +3,7 @@
 //import Todos from './components/Todos'
 import Header from './components/Header'
 import Team from './components/Team'
-import './App.css';
+//import './App.css';
 
 // class App extends Component {
 //   render(){
@@ -15,10 +15,12 @@ import './App.css';
 
 function App(){
   return(
-    <>
+    <div className="container">
       <Header />
       <Team />
-    </>
+    </div>
+      
+    
   )
     
 }
